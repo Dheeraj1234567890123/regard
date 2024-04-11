@@ -1,0 +1,16 @@
+POST http://localhost:3000/login/
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+POST http://localhost:3000/register/
+Content-Type : application/json
+{
+  "username": "adam_rich",
+  "password": "richard_5",
+  "name": "Adam Rich",
+  "gender": "male"
+}
+
+POST http://localhost:3000/user/tweets/
+Content-Type : application/json
